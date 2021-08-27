@@ -1,0 +1,14 @@
+.containerA {
+    flex: 1 1 0;
+    padding: 0 1rem 3rem 0;
+    overflow: auto;
+    margin-bottom: 2rem;
+}
+
+.region {
+    color: rgba(255, 255, 255, 0.6);
+}
+.region:hover {
+    cursor: pointer;
+    color: white;
+}

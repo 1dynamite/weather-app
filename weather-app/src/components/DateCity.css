@@ -1,0 +1,11 @@
+.container-datecity {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: max-content;
+    margin: 0 2rem;
+}
+.city-name {
+    margin-bottom: 0rem;
+    line-height: 1rem;
+}

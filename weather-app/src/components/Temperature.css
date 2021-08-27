@@ -1,0 +1,14 @@
+.container-temperature {
+    position: relative;
+    width: max-content;
+    margin: 0 2rem;
+}
+.circle {
+    right: -1rem;
+    top: 1.5rem;
+    position: absolute;
+    height: 0.7rem;
+    width: 0.7rem;
+    border-radius: 50%;
+    border: 4px solid white;
+}

@@ -1,0 +1,39 @@
+.search {
+    background-color: rgba(0,0,0,0);
+    border: none;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.6);
+    padding: 0.7rem;
+    flex-grow: 1;
+    margin-right: 2rem;
+    align-self: flex-end;
+    color: white;
+}
+.search:focus {
+    background-color: rgba(255, 255, 255, 0.7);
+    color: rgba(0,0,0,0.75);
+    outline: none;
+    border-bottom: rgba(0,0,0,0.75);
+}
+.search:focus::placeholder {
+    color: rgba(0,0,0,0.5);
+}
+.search::placeholder {
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.icon {
+    color: rgba(0,0,0,0.75);
+    padding: 2rem 2rem;
+    background-color: rgba(255, 255, 255, 0.7);
+}
+.icon:hover {
+    background-color: rgba(255, 255, 255, 0.5);
+    cursor: pointer;
+}
+.icon:active {
+    background-color: rgba(255, 255, 255, 0.3);
+}
+.wrapper {
+    display: flex;
+    margin-bottom: 2rem;
+}

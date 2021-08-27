@@ -1,0 +1,20 @@
+.container {
+    flex: 2 1 0;
+    padding-bottom: 2rem;
+    overflow: auto;
+    padding-right: 1rem;
+    margin-top: 2rem;
+}
+
+.header {
+    margin-bottom: 2rem;
+}
+
+.weather-detail {
+    display: flex;
+    justify-content: space-between;
+}
+
+.label {
+    color: rgba(255, 255, 255, 0.6);
+}
